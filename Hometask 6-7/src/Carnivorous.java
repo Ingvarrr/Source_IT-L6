@@ -29,6 +29,16 @@ public class Carnivorous extends Mammals {
         this.alive = alive;
     }
 
+    public void eat(Animals animals) {
+        if (animals instanceof Herbivorous) {
+            ((Herbivorous) animals).die();
+        } else if (animals instanceof Carnivorous) {
+            ((Carnivorous) animals).die();
+        }
+    }
+
+
+
     public void die (){
         setAlive(false);
         count++;}

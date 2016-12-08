@@ -3,6 +3,10 @@ public class Animals {
     private boolean heterotroph = true;
     private int age;
 
+
+    public void eat(Animals animals){}
+
+
     public String getSpecies() {
         return species;
     }
