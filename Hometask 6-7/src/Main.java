@@ -28,9 +28,7 @@ public class Main {
         wolf.eatCarnivorous(fox);
         wolf.eatHerbivorous(hare);
         wolf.eat(moose);
-        bear.eat1(wolf);
-        bear.eat1(cow);
-
+        
         System.out.println(wolf);
         System.out.println(deer);
         System.out.println(hare);
